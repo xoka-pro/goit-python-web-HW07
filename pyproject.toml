@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-python-web-hw07"
+version = "0.1.0"
+description = ""
+authors = ["Oleh Ovchinnikov <112849429+xoka-pro@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "goit_python_web_hw07"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2-binary = "^2.9.5"
+faker = "^17.6.0"
+sqlalchemy = "^2.0.5.post1"
+alembic = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
